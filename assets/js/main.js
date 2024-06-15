@@ -224,7 +224,7 @@ const sr = ScrollReveal({
     //     reset: true
 });
 
-sr.reveal('.home__container, .about__container, .about__img, .skills__container, .skills__subtitle, .skills__text, .qualification__container, .portfolio__container, .hobbies__container, .contact__container, .certification__container', {});
+sr.reveal('.home__container, .about__container, .about__img, .skills__container, .skills__subtitle, .skills__text, .qualification__container, .portfolio__container, .clients__container, .hobbies__container, .contact__container, .certification__container', {});
 sr.reveal('.home__img, .about__img, .about__subtitle, .about__text, .skills__data, .skills__img, .contact__subtitle, .qualification__sections', { delay: 400 });
 sr.reveal('.home__social, .about__info', { interval: 200 });
 sr.reveal('.work__img, .contact__input', { interval: 200 }); 

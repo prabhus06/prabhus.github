@@ -892,6 +892,34 @@ img {
     outline: none;
 }
 
+/*==================== CLIENTS ====================*/
+.clients__container {
+    overflow: initial;
+}
+
+.clients__content {
+
+    position: relative;
+
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.clients__img {
+    width: 120px;
+
+    justify-self: center;
+}
+
+.ee__img {
+    width: 40px;
+
+    justify-self: center;
+}
+
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
     text-align: center;
@@ -1108,6 +1136,11 @@ img {
         font-size: var(--normal-font-size);
     }
 
+    .clients__container {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+
     .hobbies__container {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
@@ -1174,17 +1207,23 @@ img {
     }
 
     .skills__container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills__list {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .qualification__sections {
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
+    }
+
+    .clients__container {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        padding: 2rem 0;
     }
 
     .hobbies__container {
@@ -1387,6 +1426,10 @@ img {
 
     .home__social {
         transform: translateX(-6rem);
+    }
+
+    .clients__container {
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .hobbies__container {
